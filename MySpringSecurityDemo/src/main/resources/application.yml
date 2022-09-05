@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/securedb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: Temp1234
+  jpa:
+    hibernate.ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+  security:
+    user:
+      name: amrutha
+      password: amrutha123
